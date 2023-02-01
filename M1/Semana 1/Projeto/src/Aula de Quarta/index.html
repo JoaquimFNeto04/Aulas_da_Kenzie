@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulários</title>
+</head>
+
+<body>
+    <!-- O PLACEHOLDER É O TEXTO DENTRO DO CAMPO COMO FOSSE AVISO/EXEMPLO-->
+    <form>
+        
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" placeholder="Isso é o Placeholder" maxlength="20" name="nome" /><br>
+        
+        <label for="email">E-mail:</label>
+        <input id="email" type="radio" required name="metodoDeContato" value="email" >
+
+        <label for="telefone">Telefone:</label>
+        <input id="telefone" type="radio" required name="metodoDeContato" value="telefone" >
+
+        <label for="whatsapp">Whatsapp:</label>
+        <input id="whatsapp" type="radio" required name="metodoDeContato" value="whatsapp" >
+        
+        <br>
+        <label for="linguagem">Escolha sua Linguagem Favorita:</label>
+        <select name="linguagem" required="true" id="linguagem">
+            <option value="">Escolha uma Linguagem</option>
+            <option value="js">JS</option>
+            <option value="pyton">Pyton</option>
+            <option value="c++">C++</option>  
+            <option value="c#">C#</option>   
+        </select>
+        <br>
+
+        <!-- COLS = COLUNAS E ROWS = LINHAS -->
+        <label for="mensagem">Mensagem:</label><br>
+        <textarea
+        id="mensagem"
+        placeholder="Digite sua mensagem"
+        cols="40"
+        rows="10"
+        name="mensagem"
+        required
+        ></textarea>
+        
+        <br>
+        <button type="submit" id="enviar">Enviar</button>
+
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Atividade de Quarta</title>
+</head>
+
+<body>
+    <header>
+        <h1>Formulário de cadastro</h1>
+    </header>
+    
+    <main>
+        <form>
+            <label for="nome">Nome</label><br>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu Nome" maxlength="20" required /><br>
+
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" placeholder="Digite seu email" required /><br>
+
+            <label for="descricao">Descrição</label><br>
+            <textarea type="text" id="descricao" name="descricao" placeholder="Fale mais sobre você" cols="30"
+                rows="5"></textarea><br>
+
+            <label for="modulo">Módulo</label><br>
+            <select name="modulo" id="modulo">
+                <option value="">Escolha seu Módulo</option>
+                <option value="modulo1">Módulo 1</option>
+                <option value="modulo2">Módulo 2</option>
+                <option value="modulo3">Módulo 3</option>
+                <option value="modulo4">Módulo 4</option>
+                <option value="modulo5">Módulo 5</option>
+                <option value="modulo6">Módulo 6</option>
+            </select><br>
+
+            <label for="senha">Senha</label><br>
+            <input type="password" id="senha" name="senha" placeholder="Digite seu senha" required /><br>
+
+            <label for="confirmesenha">Confirme sua Senha</label><br>
+            <input type="password" id="confirmesenha" name="confirmesenha" placeholder="Digite seu senha novamente"
+                required /><br>
+
+            <label for="info">Deseja receber novidades em seu e-mail?</label><br>
+            <label for="sim">Sim </label>
+            <input id="sim" type="radio" name="info" value="sim">
+            <label for="sim">Não </label>
+            <input id="nao" type="radio" name="info" value="nao">
+
+            <br>
+            <button type="submit" id="cadastrar">Cadastrar</button>
+        </form>
+    </main>
+</body>
+
+</html>
