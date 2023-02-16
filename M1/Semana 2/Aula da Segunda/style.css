@@ -1,0 +1,9 @@
+h2{
+    color: blue;
+    /* border: 1px solid black; */
+    border-bottom: 1px solid black;
+}
+
+body {
+    background-color: #93c1f3;
+}
